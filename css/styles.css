@@ -1,0 +1,55 @@
+body {
+    background-color: white
+    ;
+}
+
+.item {
+    background-color: rgba(122, 230, 194, 0.787);
+    background-repeat: no-repeat;
+    height: 200px;
+    padding: 15px;
+    width: 200px;
+    margin: 15px;
+}
+.burro {
+    background-image: url(../img/burro.png);
+    background-size: 100px;
+    background-position: center;
+    order: 3;
+    align-self: center;
+}
+.fiona {
+    background-image: url(../img/fiona.png);
+    background-position: center;
+    background-size: 100px;
+    order: 1;
+}
+.gato {
+    background-image: url(../img/gato-con-botas.png);
+    background-size: 100px;
+    background-position: center;
+    order: 2;
+    align-self: flex-end;
+}
+.pinocho {
+    background-image: url(../img/pinocho.png);
+    background-size: 100px;
+    background-position: center;
+    order: 4;
+    align-self: flex-start;
+}
+.shrek {
+    background-image: url(../img/shrek.png);
+    background-size: 100px;
+    background-position: center;
+   order: 5;
+   align-self: center;
+}
+.container {
+    background-color: rgba(162, 113, 207, 0.691);
+    height: 650px;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
